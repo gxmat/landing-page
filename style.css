@@ -1,0 +1,112 @@
+/* remove red border */
+
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    border: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top level container definition */
+.container {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+}
+
+.headerlogo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+    width: 70%;
+}
+
+.headerlinksbox {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.headerlinks {
+    flex: 1 1 auto;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: right;
+}
+
+.welcomeboxleft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.herosubtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 6px;
+}
+
+.signupbutton {
+    width: 150px;
+    height: 36px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border: 0px solid #3882F6;
+    border-radius: 6px;
+
+}
+
+.landingimagebox {
+    display: flex;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.landingimage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#headerfooterboxbg {
+    background: #1F2937;
+    height: 50px;
+}
+
+#welcomeboxbg {
+    background: #1F2937;
+    height: 400px;
+}
+
+/*
+
+
+#headerlogotext {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+    width: 50%;
+}
+
+#informationheadertext {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+#quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+} */
